@@ -11,3 +11,13 @@
 
 * classification : (뇌피셜) regression한 정보로 3개의 클래스로 나눔. 1단계가 안심단계일 것..? 3단계는 거의 걸릴 거라고 봄.
 
+
+<순서>
+
+1 data 처리 : imputer(median)-scaler(robust) -->pipeline
+ - imputer : 없는 값 median으로 채워줌
+ - scaler : 범위 벗어나는 값 제외
+ 
+2 regression : rmse와 cross-validation score 비교함, linear,decision tree, randomforest 비교 후 randomforest선택
+
+3 classification : svm, softmax, randomforest 비교 후 randomforest 선택
