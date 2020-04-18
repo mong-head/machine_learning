@@ -27,3 +27,14 @@
 regression, classification 둘 다 randomforest가 더 나았다. 
 
 다만, neural network는 층을 깊이 쌓은 deep neural network가 아니었음.
+
+# final term (team project) : parking lot space
+
+deep neural network를 이용해서 주차장 공간안에 빈자리와 주차된 자리를 표시하고 빈 자리는 몇자리 남았는지 알려주는 프로그램
+
+이미 만들어진 모델 VGG19를 사용하여 transfer learning(전이학습)함.
+
+다른 층은 relu, selu를 적절히 사용.
+
+
+* training : 빈 공간, 주차된 공간을 잘라서 학습시킴 (0,1) ->주차장 전체 이미지와 주차공간의 csv파일이 들어오면 빈공간인지 아닌지 판별함
