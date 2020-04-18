@@ -21,3 +21,9 @@
 2 regression : rmse와 cross-validation score 비교함, linear,decision tree, randomforest 비교 후 randomforest선택
 
 3 classification : svm, softmax, randomforest 비교 후 randomforest 선택
+
+# midterm+ : randomforest vs. neural network
+
+regression, classification 둘 다 randomforest가 더 나았다. 
+
+다만, neural network는 층을 깊이 쌓은 deep neural network가 아니었음.
