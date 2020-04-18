@@ -36,8 +36,16 @@ deep neural network를 이용해서 주차장 공간안에 빈자리와 주차�
 
 다른 층은 relu, selu를 적절히 사용.
 
+* 만든 계기
+
+![K-028](https://user-images.githubusercontent.com/52481037/79670000-ae0b3a80-81fa-11ea-8aee-63db4ad34353.jpg)
 
 * training : 빈 공간, 주차된 공간을 잘라서 학습시킴 (0,1) ->주차장 전체 이미지와 주차공간의 csv파일이 들어오면 빈공간인지 아닌지 판별함
+
+![K-027](https://user-images.githubusercontent.com/52481037/79670023-d2671700-81fa-11ea-92c0-2461604dbc23.jpg)
+
+![K-029](https://user-images.githubusercontent.com/52481037/79670005-b2cfee80-81fa-11ea-8528-5e76a7fe9ac0.jpg)
+
 
 * 결과물의 일부
 ![K-026](https://user-images.githubusercontent.com/52481037/79669819-53bdaa00-81f9-11ea-981d-7a8ef0371187.jpg)
